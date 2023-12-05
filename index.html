@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Music Playlist generator</title>
+    <link rel="icon" type="image/x-icon" href="main_images/logo.jpg">
+</head>
+<body>
+<div class="background">
+    <header>
+        <div class="logo">
+            <span>MOOD</span>Playlist 
+        </div>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ion-icon name="reorder-four" id="toggle"></ion-icon>
+        </nav>
+    </header>
+    <div class="text">
+        <div class="inner_text">Harmony <span>Beats</span></div> <br>
+        <p>Craft your perfect vibe with Harmony Beats.Select your mood,and let us curate a personalized playlist just for you.Play directly on our site.Elevate your experience-discover,play,and immmerse yourself effortlessly.Your emotions,your music,harmonized. <br>Try it now!!</p>
+           <a href="selmood.html"><button>Select Mood</button></a>
+    </div>
+</div>
+    <script>
+        const menu = document.querySelector('.menu');
+        const toggle = document.getElementById('toggle');
+            toggle.onclick = function(){
+                menu.classList.toggle('active');
+            }
+    </script>
+ 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js"></script>
+</body>
+</html>
